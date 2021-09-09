@@ -39,4 +39,7 @@
          1 - LOCAL HBM
     -->
     <integer name="config_udfps_hbm_type">0</integer>
+
+    <!--  Allow CornerHandleView and PathSpecCornerPathRenderer to decouple from corner-radius -->
+    <dimen name="config_rounded_mask_size_bottom">118px</dimen>    
 </resources>
