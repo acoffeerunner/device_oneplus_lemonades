@@ -24,6 +24,9 @@ $(call inherit-product, device/oneplus/lemonades/device.mk)
 # Inherit some common bsdkOS stuff.
 $(call inherit-product, vendor/bsdk/config/common_full_phone.mk)
 
+# Boot Animation
+TARGET_BOOT_ANIMATION_RES := 1080
+
 PRODUCT_NAME := bsdk_lemonades
 PRODUCT_DEVICE := lemonades
 PRODUCT_MANUFACTURER := OnePlus
